@@ -7,8 +7,8 @@ COMPANY_NAME = "Tesla Inc"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-API_KEY_STOCKS = "0AYK50D3V7560AVZ"
-API_KEY_NEWS = "d1e7b67977834b279a722c64e699eedf"
+API_KEY_STOCKS = "your alphavantage api key"
+API_KEY_NEWS = "your news api key"
 
 
 my_email = "your email"
