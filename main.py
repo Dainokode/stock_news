@@ -29,7 +29,7 @@ yesterday_price_close = float(data_stock["Time Series (Daily)"]["2021-01-26"]["4
 day_before_price_close = float(data_stock["Time Series (Daily)"]["2021-01-25"]["4. close"])
 percentage = abs(float(yesterday_price_close) - float(day_before_price_close))
 differecente_percentage = percentage / float(yesterday_price_close) * 100
-result = f"{differecente_percentage}%"
+result = f"{round(differecente_percentage, 2)}%"
 print(result)
 
 
