@@ -54,5 +54,5 @@ if differecente_percentage >= 5:
             connection.sendmail(
                 my_email,
                 receiver,
-                fmt.format(my_email, receiver, STOCK + result, message).encode('utf-8')
+                fmt.format(my_email, receiver, STOCK + " " + result, message).encode('utf-8')
             )
